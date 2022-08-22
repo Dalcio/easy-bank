@@ -1,0 +1,32 @@
+<header class="header-container">
+  <div class="logo">
+    <img src="../../../assets/images/logo.svg" alt="" />
+  </div>
+  <button class="toggle-button" (click)="handleToggleButtonClick()">
+    <img
+      *ngIf="toggleButton"
+      src="../../../assets/images/icon-close.svg"
+      alt="close menu"
+    />
+    <img
+      *ngIf="!toggleButton"
+      src="../../../assets/images/icon-hamburger.svg"
+      alt="open menu"
+    />
+  </button>
+  <ul [class]="toggledCalls">
+    <li>Home</li>
+    <li>About</li>
+    <li>Contact</li>
+    <li>Blog</li>
+    <li>Careers</li>
+  </ul>
+  <div class="request-btn">
+    <app-button></app-button>
+  </div>
+</header>
+<div
+  [class]="toggleButton ? 'pane show' : 'pane hide'"
+  *ngIf="toggleButton"
+  (click)="handleToggleButtonClick()"
+></div>

@@ -1,0 +1,13 @@
+<div class="article-card-container" *ngIf="article">
+  <img
+    class="cover"
+    src="../../../../assets/images/image-confetti.jpg"
+    [alt]="article.title"
+    [src]="article.cover"
+  />
+  <div class="content">
+    <div class="author">By {{ article.author | titlecase }}</div>
+    <h4 class="title">{{ article.title }}</h4>
+    <div class="description">{{ article.description }}</div>
+  </div>
+</div>

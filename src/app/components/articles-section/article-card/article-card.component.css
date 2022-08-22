@@ -1,0 +1,40 @@
+.article-card-container {
+  background-color: var(--white);
+  border-radius: 5px;
+  overflow: hidden;
+  /* max-width: var(--bp-md); */
+}
+
+.article-card-container > .cover {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+}
+
+.article-card-container > .content {
+  padding: var(--md) var(--sm);
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+.article-card-container > .content > *:not(.title) {
+  color: var(--grayish-blue);
+}
+
+.article-card-container > .content > .description {
+  font-size: 1.25rem;
+}
+
+.article-card-container > .content > .title {
+  font-size: 1.5rem;
+}
+
+.article-card-container:hover > .content > .title {
+  color: var(--lime-green);
+}
+
+@media screen and (min-width: 720px) {
+  .article-card-container > .cover {
+    height: 230px;
+  }
+}
