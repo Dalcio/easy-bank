@@ -1,6 +1,6 @@
 # Easybank landing page
 
-![Home Page](./screenshots/cover.png)
+![Home Page](./screnshots/cover.png)
 
 This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile - 375px](./screenshots/desktop-preview.png)
-![Desktop - 1440px](./screenshots/mobile-preview.png)
+![Mobile - 375px](./screnshots/desktop-preview.png)
+![Desktop - 1440px](./screnshots/mobile-preview.png)
 
 ### Links
 
